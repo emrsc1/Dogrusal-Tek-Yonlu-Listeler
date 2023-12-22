@@ -1,0 +1,14 @@
+C:\Users\Hasan\OneDrive\Masaüstü\proje\DogrusalTekYonluListeler\bin\Debug\net6.0\DogrusalTekYonluListeler.exe
+C:\Users\Hasan\OneDrive\Masaüstü\proje\DogrusalTekYonluListeler\bin\Debug\net6.0\DogrusalTekYonluListeler.deps.json
+C:\Users\Hasan\OneDrive\Masaüstü\proje\DogrusalTekYonluListeler\bin\Debug\net6.0\DogrusalTekYonluListeler.runtimeconfig.json
+C:\Users\Hasan\OneDrive\Masaüstü\proje\DogrusalTekYonluListeler\bin\Debug\net6.0\DogrusalTekYonluListeler.dll
+C:\Users\Hasan\OneDrive\Masaüstü\proje\DogrusalTekYonluListeler\bin\Debug\net6.0\DogrusalTekYonluListeler.pdb
+C:\Users\Hasan\OneDrive\Masaüstü\proje\DogrusalTekYonluListeler\obj\Debug\net6.0\DogrusalTekYonluListeler.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Hasan\OneDrive\Masaüstü\proje\DogrusalTekYonluListeler\obj\Debug\net6.0\DogrusalTekYonluListeler.AssemblyInfoInputs.cache
+C:\Users\Hasan\OneDrive\Masaüstü\proje\DogrusalTekYonluListeler\obj\Debug\net6.0\DogrusalTekYonluListeler.AssemblyInfo.cs
+C:\Users\Hasan\OneDrive\Masaüstü\proje\DogrusalTekYonluListeler\obj\Debug\net6.0\DogrusalTekYonluListeler.csproj.CoreCompileInputs.cache
+C:\Users\Hasan\OneDrive\Masaüstü\proje\DogrusalTekYonluListeler\obj\Debug\net6.0\DogrusalTekYonluListeler.dll
+C:\Users\Hasan\OneDrive\Masaüstü\proje\DogrusalTekYonluListeler\obj\Debug\net6.0\refint\DogrusalTekYonluListeler.dll
+C:\Users\Hasan\OneDrive\Masaüstü\proje\DogrusalTekYonluListeler\obj\Debug\net6.0\DogrusalTekYonluListeler.pdb
+C:\Users\Hasan\OneDrive\Masaüstü\proje\DogrusalTekYonluListeler\obj\Debug\net6.0\DogrusalTekYonluListeler.genruntimeconfig.cache
+C:\Users\Hasan\OneDrive\Masaüstü\proje\DogrusalTekYonluListeler\obj\Debug\net6.0\ref\DogrusalTekYonluListeler.dll

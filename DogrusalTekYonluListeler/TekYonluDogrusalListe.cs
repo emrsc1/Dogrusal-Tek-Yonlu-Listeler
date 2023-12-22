@@ -240,8 +240,123 @@ namespace DogrusalTekYonluListeler
                 }
             } while (current != null);
             throw new ArgumentException("Listede böyle bir değer bulunamadı.");
-            
 
+
+             
+
+        }
+        public int findIndex(T value)
+        {
+            TekYonluDogrusalListeNode<T> temp = Head;
+            int index = 0;
+
+            while (temp != null)
+            {
+                if (temp.Value.Equals(value))
+                {
+                    return index;
+                }
+                index++;
+                temp = temp.Next;
+            }
+            return -1;
+        }
+        public void AddNodeAt(T value, int index)
+        {
+            TekYonluDogrusalListeNode<T> newNode = new TekYonluDogrusalListeNode<T>(value);
+
+            if (index == 0)
+            {
+                newNode.Next = Head;
+                Head = newNode;
+            }
+            else
+            {
+                TekYonluDogrusalListeNode<T> temp = Head;
+                for (int i = 0; i < index - 1 && temp != null; i++)
+                {
+                    temp = temp.Next;
+                }
+
+                if (temp == null)
+                {
+                    throw new ArgumentOutOfRangeException(nameof(index));
+                }
+
+                newNode.Next = temp.Next;
+                temp.Next = newNode;
+            }
+        }
+        public void RemoveNode(T value)
+        {
+            TekYonluDogrusalListeNode<T> current = Head;
+            TekYonluDogrusalListeNode<T> prev = null;
+
+            // İlk elemanı silme durumu
+            if (current != null && current.Value.Equals(value))
+            {
+                Head = current.Next;
+                return;
+            }
+
+            // Diğer elemanları silme durumu
+            while (current != null && !current.Value.Equals(value))
+            {
+                prev = current;
+                current = current.Next;
+            }
+
+            if (current == null)
+            {
+                return; // Değer bulunamadı
+            }
+
+            // Düğümü listeden çıkar
+            prev.Next = current.Next;
+        }
+        public bool Search(T value)
+        {
+            TekYonluDogrusalListeNode<T> temp =Head;
+
+            while (temp != null)
+            {
+                if (temp.Value.Equals(value))
+                {
+                    return true; // Değer bulundu
+                }
+                temp = temp.Next;
+            }
+
+            return false; // Değer bulunamadı
+        }
+        public int FindIndexByValue(T value)
+        {
+            TekYonluDogrusalListeNode<T> temp = Head;
+            int currentIndex = 0;
+
+            while (temp != null)
+            {
+                if (temp.Value.Equals(value))
+                {
+                    return currentIndex; // Elemanın bulunduğu indeksi döndür
+                }
+                currentIndex++;
+                temp = temp.Next;
+            }
+
+            return -1; // Eleman bulunamadıysa -1 döndür
+        }
+        public void ShowAllElements()
+        {
+            TekYonluDogrusalListeNode<T> temp = Head;
+
+            while (temp != null)
+            {
+                Console.Write($"{temp.Value} ");
+                temp = temp.Next;
+            }
+
+            Console.WriteLine(); // Elemanları yazdırdıktan sonra bir satır atla
         }
     }
 
